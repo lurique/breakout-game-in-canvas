@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Amatic SC', cursive;
+}
+
+body {
+	background: linear-gradient(45deg, #F46B45 0%, #EEA849 100%);
+	width: 100%;
+	height: calc(100vh - 21px);
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}
+	footer p {
+		color: #FFF;
+		float: right;
+		margin-right: 15px;
+	}
+		footer p a {
+			color: #FFF;
+		}
